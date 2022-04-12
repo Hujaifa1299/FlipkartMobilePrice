@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <h1>Mobile Price Prediction </h1>
+    <form action="{{ url_for("gfg")}}" method="post">
+
+    <label for="Brand"> Brand:</label>
+    <select id="Brand" name="Brand">
+    <option value="11">OPPO </option>
+    <option value="4">HTC </option>
+     <option value="5">IQOO </option>
+        <option value="3">Google Pixel </option>
+        <option value="7">LG </option>
+        <option value="0">ASUS </option>
+        <option value="15">realme </option>
+        <option value="2">GIONEE </option>
+        <option value="10">Nokia </option>
+        <option value="1">Apple </option>
+        <option value="13">SAMSUNG </option>
+        <option value="8">Lenovo </option>
+        <option value="9">Motorola </option>
+        <option value="12">POCO </option>
+        <option value="16">vivo </option>
+        <option value="14">Xiaomi </option>
+        <option value="6">Infinix </option>
+
+    </select>
+
+    <label for="Memory">Memory:</label>
+<input type="Memory" id="Memory" name="Memory" placeholder="Memory">
+
+    <label for="Storage">Storage:</label>
+<input type="text" id="Storage" name="Storage" placeholder="Storage">
+
+
+<button type="submit">Search</button>
+</body>
+</html>
